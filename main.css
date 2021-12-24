@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('./background.jpg') ;
+}
+h1{
+    position: relative;
+    font-size: 40px;
+    color: bisque;
+    margin-bottom: 7px;
+    text-align: center;
+    margin-right: 180px;
+}
+#form{
+    position: relative;
+}
+#form #email{
+    width: 300px;
+    background: #512784ba;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    color: #ffffff;
+    font-style: 18px;
+}
+#form #inputBox{
+    position: relative;
+}
+
+#form #psw{
+    width: 300px;
+    background: #512784ba;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    color: #ffffff;
+    font-style: 18px;
+    margin-top: 7px;;
+}
+#submit-btn {
+    background: -webkit-linear-gradient(right, #000000, #292929);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #402f2f29;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 0px;
+    transition: 0.25s;
+    width: 153px;
+  }
+#form #passBox{
+    position: relative;
+}
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+
+  .invalid {
+    color: rgb(113, 90, 90);
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+#submitButton{
+    color: grey;
+
+}
